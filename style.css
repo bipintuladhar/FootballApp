@@ -1,0 +1,74 @@
+body {
+    font-family: sans-serif;
+    border: 1px solid white;
+    background-color: #1E1E21;
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white
+}
+
+.header {
+    margin: 0 auto;
+    background-color: #BE3760;
+    width: 300px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+ 
+}
+.meow-form{
+    width: 300px;
+    height: 300px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba0(0, 0, 0, 0.6);
+    background-color: #22262C;   
+}
+
+input{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+textarea{
+    width: 80%;
+    height: 50px;
+}
+input[type='submit']{
+    width: 50%;
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 2px;
+    font-size: 10px;
+    border: 1px solid #BE3760;
+    background-color: #22262C;
+    color: white
+}
+
+input[type='submit']:hover{
+ cursor: pointer;
+ background-color: beige;
+ color: blue; 
+}
+
+.display {
+    background-color: #BE3760;
+    width: 500px;
+    padding: 5px;
+    color: white;
+    margin: 5px auto;   
+}
+.display>h4{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
